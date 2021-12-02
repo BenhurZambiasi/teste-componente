@@ -1,0 +1,29 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  width: 110px;
+  background-color: #1a2f3a;
+  outline: none;
+  border: none;
+  color: #fff;
+}
+.loading:hover {
+  background: linear-gradient(135deg, #07a7e3, #32dac3 100%);
+  color: #fff;
+  border: 1px solid #1a2f3a;
+}
+
+.spinner {
+  border: 5px solid #e9eaeecc;
+  border-left-color: #319c16da;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

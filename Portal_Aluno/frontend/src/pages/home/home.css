@@ -1,0 +1,139 @@
+.label {
+  justify-content: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.file {
+  display: none;
+}
+
+.senha {
+  display: flex;
+  flex-direction: column;
+}
+
+.senha div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mostrar {
+  background-color: #1a2f3a;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  border-radius: 4px;
+  padding: 4px;
+  cursor: pointer;
+  height: 26px;
+  font-size: 14px;
+}
+
+.mostrar:hover {
+  background: linear-gradient(135deg, #07a7e3, #32dac3 100%);
+  border: 1px solid #1a2f3a;
+}
+.btnAvatar {
+  display: flex;
+  background-color: #1a2f3a;
+  height: 38px;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.btnAvatar:hover {
+  background: linear-gradient(135deg, #07a7e3, #32dac3 100%);
+  border: 1px solid #1a2f3a;
+}
+
+.formHome {
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "avatar firstname"
+    "avatar lastname"
+    "avatar email"
+    "avatar password"
+    "btnfile cpf"
+    "btn-conf usertype";
+}
+.avatar {
+  margin-right: 15px;
+  grid-area: avatar;
+}
+.homeAvatar {
+  width: 90%;
+}
+.firstname {
+  grid-area: firstname;
+}
+.lastname {
+  grid-area: lastname;
+}
+.cpf {
+  grid-area: cpf;
+}
+.email {
+  grid-area: email;
+}
+.password {
+  grid-area: password;
+}
+.usertype {
+  grid-area: usertype;
+}
+.btnfile {
+  grid-area: btnfile;
+  margin-right: 15px;
+  margin-top: 32px;
+}
+.btn-conf {
+  grid-area: btn-conf;
+  width: 100%;
+}
+.btnAttConfi {
+  cursor: pointer;
+  background-color: #1a2f3a;
+  color: #fff;
+  border: none;
+  width: 96%;
+  height: 37px;
+  align-items: center;
+  border-radius: 4px;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.btnAttConfi:hover {
+  background: linear-gradient(135deg, #07a7e3, #32dac3 100%);
+  color: #fff;
+  border: 1px solid #1a2f3a;
+}
+
+.spinners {
+  border: 5px solid #e9eaeecc;
+  border-left-color: #319c16da;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1231px) {
+  .homeAvatar {
+    width: 350px;
+    height: 400px;
+  }
+}

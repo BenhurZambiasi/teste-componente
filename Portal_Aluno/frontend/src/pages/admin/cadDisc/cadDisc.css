@@ -1,0 +1,54 @@
+.formDisc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.discp {
+  width: 290px;
+}
+.qtdalunos {
+  width: 290px;
+}
+.professor {
+  width: 280px;
+}
+.btnCadastrar {
+  margin-top: 16px;
+  width: 290px;
+}
+.turno {
+  width: 290px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  background-color: #1a2f3a;
+  outline: none;
+  border: none;
+  color: #fff;
+  width: 100%;
+  height: 38px;
+  border-radius: 4px;
+  align-items: center;
+}
+.button:hover {
+  background: linear-gradient(135deg, #07a7e3, #32dac3 100%);
+  color: #fff;
+  border: 1px solid #1a2f3a;
+}
+.DmessageError {
+  color: red;
+  font-size: 12px;
+}
+
+@media (max-width: 1213px) {
+  .formDisc {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+}

@@ -1,0 +1,73 @@
+.newChat {
+   width: 35%;
+   max-width: 415px;
+   position: fixed;
+   left: 0;
+   top: 0;
+   bottom: 0;
+   background-color: #fff;
+   display: flex;
+   flex-direction: column;
+   border-right: 1px solid, #ddd;
+   transition: all ease 0.5s;
+}
+
+.newCth-head {
+   display: flex;
+   background-color: #00bfa5;
+   align-items: center;
+   padding: 60px 15px 15px 15px;
+}
+
+.newcth-backbutton {
+   width: 40px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+
+.newcth-headTitle {
+   color: #fff;
+   font-size: 19px;
+   line-height: 40px;
+   flex: 1;
+   font-weight: bold;
+   margin-left: 20px;
+}
+
+.newCth-list {
+   flex: 1;
+   overflow-y: auto;
+}
+
+.newCth-list::-webkit-scrollbar {
+   width: 6px;
+   height: 6px;
+}
+.newCth-list::-webkit-scrollbar-thumb {
+   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.newCth-item {
+   display: flex;
+   align-items: center;
+   padding: 15px;
+   cursor: pointer;
+}
+.newCth-item:hover {
+   background-color: #f5f5f5;
+}
+
+.newCth-itemAvatar {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   margin-right: 15px;
+}
+
+.newCth-itemName {
+   color: #000;
+   font-size: 17px;
+}

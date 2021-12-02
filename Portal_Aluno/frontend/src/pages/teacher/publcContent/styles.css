@@ -1,0 +1,11 @@
+.divForm {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.descricao {
+  max-width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

@@ -1,0 +1,48 @@
+.formUser {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "avatarUser avatarUser"
+    "btnfile btnfile"
+    "firstname lastname"
+    "email password"
+    "cpf usertype"
+    "btn-conf btn-conf";
+}
+.avatarUser {
+  height: 100%;
+  grid-area: avatarUser;
+}
+.userAvatar {
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.firstname {
+  grid-area: firstname;
+  margin-right: 10px;
+}
+.lastname {
+  grid-area: lastname;
+}
+.cpf {
+  grid-area: cpf;
+  margin-right: 10px;
+}
+.email {
+  grid-area: email;
+  margin-right: 10px;
+}
+.password {
+  grid-area: password;
+}
+.usertype {
+  grid-area: usertype;
+}
+.btnfile {
+  grid-area: btnfile;
+}
+.btn-conf {
+  grid-area: btn-conf;
+}

@@ -1,0 +1,17 @@
+.discipline {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.labelDiscipline {
+  font-size: 25px;
+}
+
+.messageSuccess {
+  color: green;
+  margin-left: 10px;
+}
+.messageError {
+  margin-left: 10px;
+  color: red;
+}
